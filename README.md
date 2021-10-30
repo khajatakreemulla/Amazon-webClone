@@ -1,5 +1,7 @@
 # This is an FrontEnd Amazon Clone which is reactJS based web Application for product purshase 
 
+### This is a ReactJS based web application
+
 To get started and run the app:
 
 - Clone the project.
