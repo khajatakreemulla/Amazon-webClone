@@ -7,17 +7,22 @@ import {
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Cart from './Components/Cart'
+import Login from './Components/Login';
 function App() {
   return (
     <>
     <Router>
-    <Navbar/>
     <Switch>
      <Route exact path="/">
+     <Navbar/>
        <Home/>
     </Route>
      <Route exact path="/cart">
+     <Navbar/>
       <Cart/>
+    </Route>
+     <Route exact path="/login">
+     <Login/>
     </Route>
     </Switch>
     </Router>

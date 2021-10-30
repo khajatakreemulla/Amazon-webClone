@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className="navbar__nav">
                 <Link to="/login" className="navbar__link">
                     <div className="navbar__option">
-                        <span className="header__option__one">Hello quazi</span>
+                        <span className="header__option__one">Hello</span>
                         <span className="header__otion__two">Sign in</span>
                     </div>
                 </Link>

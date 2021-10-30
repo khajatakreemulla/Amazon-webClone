@@ -7,11 +7,37 @@
     width: 100%;
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0,0,0,0.2));
     z-index: -1;
-    margin-bottom: -150px;
+    margin-bottom: -200px;
 }
 .homemain__row{
     display: flex;
     z-index: 1;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+@media only screen and (max-width: 850px){
+    .main__image{
+        margin-bottom: -180px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .main__image{
+        margin-bottom: -150px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .main__image{
+        margin-bottom: -130px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .main__image{
+        margin-bottom: -110px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .main__image{
+        margin-bottom: -80px;
+    }
 }

@@ -9,26 +9,27 @@ const Home = () => {
             <div className="homemain__row">
                 <Product
                     id="12321341"
-                    title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-                    price={11.96}
+                    title="
+                    Samsung Galaxy M12 (Blue,4GB RAM, 64GB Storage) 6000 mAh with 8nm Processor | True 48 MP Quad Camera | 90Hz Refresh Rate"
+                    price={135.8}
                     rating={4}
-                    image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+                    image="https://m.media-amazon.com/images/I/71r69Y7BSeL._SL1500_.jpg"
                 />
                 <Product
                     id="49538094"
-                    title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-                    price={239.0}
+                    title="Bigmuscles Nutrition Premium Gold Whey 1Kg [Belgian Chocolate] | Whey Protein Isolate & Whey Protein Concentrate | 25g Protein Per Serving | 0g Sugar |..."
+                    price={18}
                     rating={4}
-                    image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+                    image="https://m.media-amazon.com/images/I/51JJtqTByuL._SL1000_.jpg"
                 />
             </div>
             <div className="homemain__row">
                 <Product
                     id="4903850"
-                    title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-                    price={199.99}
-                    rating={3}
-                    image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+                    title="Apple iPhone 13 Pro Max (1TB) - Gold"
+                    price={2500}
+                    rating={5}
+                    image="https://m.media-amazon.com/images/I/619m8rLBQSL._SL1500_.jpg"
                 />
                 <Product
                     id="23445930"

@@ -27,3 +27,58 @@
     color: #111;
     cursor: pointer;
 }
+@media only screen and (max-width: 800px){
+    .subtotal{
+        width: 250px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .subtotal{
+        width: 250px;
+        padding: 18px;
+    }
+    .subtotal button{
+        width: 80%;
+    }
+    .subtotal p{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .subtotal{
+        width: 230px;
+        padding: 16px;
+    }
+    .subtotal button{
+        width: 80%;
+    }
+    .subtotal p{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .subtotal{
+        width: 200px;
+        padding: 14px;
+    }
+    .subtotal button{
+        width: 80%;
+        font-size: 12px;
+    }
+    .subtotal p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 440px){
+    .subtotal{
+        width: 100%;
+        padding: 12px;
+    }
+    .subtotal button{
+        width: 80%;
+        font-size: 8px;
+    }
+    .subtotal p{
+        font-size: 10px;
+    }
+}
